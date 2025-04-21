@@ -29,7 +29,7 @@ const PostDetailsComponent = () => {
             .catch(error => {
                 console.error('Error fetching comments:', error);
             });
-    });
+    }, []);
 
     const handleAddComment = (e) => {
         e.preventDefault();
