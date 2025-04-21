@@ -1,0 +1,35 @@
+.post-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.post-form form textarea {
+    height: 120px;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post-details-page{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.add-comment-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.add-comment-form textarea{
+    height: 120px;
+}
