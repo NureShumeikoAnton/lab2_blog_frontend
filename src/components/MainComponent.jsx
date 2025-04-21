@@ -56,7 +56,7 @@ const MainComponent = () => {
             }
         })
             .then(response => {
-                setPosts([...posts, response.data]);
+                setPosts([...posts, { ...response.data, category: { name: formData.category_name } }]);
                 setFormData({title: '', content: '', category_name: ''});
             })
             .catch(error => {
